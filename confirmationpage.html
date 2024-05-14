@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinionSwap</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/favicon.ico" width="32" height="32" alt="Cryptex logo">
+        Minionswap
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Homepage</a>
+          </li>
+          <li class="navbar-item">
+            <a href="swap.html" class="navbar-link active" data-nav-link>Swap</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+      <a href="#" class="btn btn-outline">
+        <button class="px-4 py-2 rounded-md border border-blue-500 hover:bg-blue-500">xffhg-o7t...</button>
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="flex h-screen justify-center items-center flex-col py-8">
+    <div class="bg-gray-900 p-8 rounded-md">
+      <div class="message">
+        <center> 
+          <br>
+          <br>
+          <center>
+            <dotlottie-player src="https://lottie.host/6b92c4ed-bf70-44fc-ab61-970b4d694c7b/4Tqz1RJkKo.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+          </center>
+          <h2>Transaction Successful!</h2>
+          <p>Congratulations! Your crypto token swap has been completed successfully. Here are the details of your transaction:</p>
+          <br>
+          <ul style="color: white;">
+  <li><strong>Transaction HASH: </strong> #iYBL69PwLiVHFiUCb5qW5Weumf5baJ5ZLKw2yHoai2SKsZuP6Eo3speXhLKNfsez98EUuRHN5zZ8eRtXeMafuXs</li>
+  <li><strong>Fee: </strong> 0.0000987ETH</li>
+</ul>
+
+          <br>
+          <p>Your new balance should reflect the updated amount in either of your trust wallet. If you have any questions or concerns regarding this transaction, feel free to reach out to our support team at Minionswap@gmail.com.</p>
+          <button onclick="window.location.href='index.html'" class="btn" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Return to Homepage</button>
+
+        </center>
+      </div>      
+    </div>
+    <br>
+  </main>
+
+</body>
+</html>
